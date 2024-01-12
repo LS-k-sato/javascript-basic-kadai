@@ -1,5 +1,6 @@
-const calculateTotal = (i) => {
-  console.log(i ** 2);
+function calcArea(square){
+  const area = square ** 2
+  return area;
 }
 
-calculateTotal(10);
+console.log(calcArea(10));
